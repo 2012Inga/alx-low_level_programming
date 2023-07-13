@@ -2,13 +2,11 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 1 (Success)
+ * main - A c program that prints a line to the standard error
+ * Return: 1 (Success)
 */
 int main(void)
 {
-	wire(2,
-	"and that piece of that art is useful\" -Dora Korpar, 2015-1019\n",59);
-	return (1);
-}	
+	fput("and that piece of art is useful\" -Dora Korpar, 2015-10-19\n" stdout);
+	return (1)
+}		
